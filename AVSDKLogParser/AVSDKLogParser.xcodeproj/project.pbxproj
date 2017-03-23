@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92EFF27C1E7FCD4500911F3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EFF27B1E7FCD4500911F3C /* main.cpp */; };
+		92EFF2981E7FF68500911F3C /* TCSDKLogResultItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EFF2931E7FF68500911F3C /* TCSDKLogResultItem.cpp */; };
+		92EFF29F1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EFF29D1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.cpp */; };
+		92EFF2A11E800B9500911F3C /* TCAVSDKLogAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92EFF2A01E800B9500911F3C /* TCAVSDKLogAnalyzer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92EFF2761E7FCD4500911F3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92EFF2781E7FCD4500911F3C /* AVSDKLogParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AVSDKLogParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EFF27B1E7FCD4500911F3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92EFF2921E7FF68500911F3C /* TCSDKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSDKConst.h; sourceTree = "<group>"; };
+		92EFF2931E7FF68500911F3C /* TCSDKLogResultItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCSDKLogResultItem.cpp; sourceTree = "<group>"; };
+		92EFF2941E7FF68500911F3C /* TCSDKLogResultItem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCSDKLogResultItem.hpp; sourceTree = "<group>"; };
+		92EFF2961E7FF68500911F3C /* IAVSDKLogBaseParseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAVSDKLogBaseParseItem.h; sourceTree = "<group>"; };
+		92EFF2971E7FF68500911F3C /* ITCSDKLogAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCSDKLogAnalyzer.h; sourceTree = "<group>"; };
+		92EFF2991E7FF6F900911F3C /* ITCSDKMultiAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITCSDKMultiAnalyzer.h; sourceTree = "<group>"; };
+		92EFF29B1E7FF8E200911F3C /* TCAVSDKLogAnalyzer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCAVSDKLogAnalyzer.hpp; sourceTree = "<group>"; };
+		92EFF29D1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCSDKLogBaseAnalyzer.cpp; sourceTree = "<group>"; };
+		92EFF29E1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TCSDKLogBaseAnalyzer.hpp; sourceTree = "<group>"; };
+		92EFF2A01E800B9500911F3C /* TCAVSDKLogAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCAVSDKLogAnalyzer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92EFF2751E7FCD4500911F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92EFF26F1E7FCD4500911F3C = {
+			isa = PBXGroup;
+			children = (
+				92EFF27A1E7FCD4500911F3C /* AVSDKLogParser */,
+				92EFF2791E7FCD4500911F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92EFF2791E7FCD4500911F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92EFF2781E7FCD4500911F3C /* AVSDKLogParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92EFF27A1E7FCD4500911F3C /* AVSDKLogParser */ = {
+			isa = PBXGroup;
+			children = (
+				92EFF2911E7FF68500911F3C /* Common */,
+				92EFF2951E7FF68500911F3C /* Interface */,
+				92EFF27B1E7FCD4500911F3C /* main.cpp */,
+			);
+			path = AVSDKLogParser;
+			sourceTree = "<group>";
+		};
+		92EFF2911E7FF68500911F3C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				92EFF2921E7FF68500911F3C /* TCSDKConst.h */,
+				92EFF2931E7FF68500911F3C /* TCSDKLogResultItem.cpp */,
+				92EFF2941E7FF68500911F3C /* TCSDKLogResultItem.hpp */,
+				92EFF29D1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.cpp */,
+				92EFF29E1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.hpp */,
+				92EFF29B1E7FF8E200911F3C /* TCAVSDKLogAnalyzer.hpp */,
+				92EFF2A01E800B9500911F3C /* TCAVSDKLogAnalyzer.cpp */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		92EFF2951E7FF68500911F3C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				92EFF2961E7FF68500911F3C /* IAVSDKLogBaseParseItem.h */,
+				92EFF2971E7FF68500911F3C /* ITCSDKLogAnalyzer.h */,
+				92EFF2991E7FF6F900911F3C /* ITCSDKMultiAnalyzer.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92EFF2771E7FCD4500911F3C /* AVSDKLogParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EFF27F1E7FCD4500911F3C /* Build configuration list for PBXNativeTarget "AVSDKLogParser" */;
+			buildPhases = (
+				92EFF2741E7FCD4500911F3C /* Sources */,
+				92EFF2751E7FCD4500911F3C /* Frameworks */,
+				92EFF2761E7FCD4500911F3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVSDKLogParser;
+			productName = AVSDKLogParser;
+			productReference = 92EFF2781E7FCD4500911F3C /* AVSDKLogParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92EFF2701E7FCD4500911F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AlexiChen;
+				TargetAttributes = {
+					92EFF2771E7FCD4500911F3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 43YJ58H38Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92EFF2731E7FCD4500911F3C /* Build configuration list for PBXProject "AVSDKLogParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92EFF26F1E7FCD4500911F3C;
+			productRefGroup = 92EFF2791E7FCD4500911F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92EFF2771E7FCD4500911F3C /* AVSDKLogParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92EFF2741E7FCD4500911F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EFF29F1E7FFB7800911F3C /* TCSDKLogBaseAnalyzer.cpp in Sources */,
+				92EFF2981E7FF68500911F3C /* TCSDKLogResultItem.cpp in Sources */,
+				92EFF27C1E7FCD4500911F3C /* main.cpp in Sources */,
+				92EFF2A11E800B9500911F3C /* TCAVSDKLogAnalyzer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92EFF27D1E7FCD4500911F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92EFF27E1E7FCD4500911F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92EFF2801E7FCD4500911F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92EFF2811E7FCD4500911F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 43YJ58H38Q;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92EFF2731E7FCD4500911F3C /* Build configuration list for PBXProject "AVSDKLogParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EFF27D1E7FCD4500911F3C /* Debug */,
+				92EFF27E1E7FCD4500911F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EFF27F1E7FCD4500911F3C /* Build configuration list for PBXNativeTarget "AVSDKLogParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EFF2801E7FCD4500911F3C /* Debug */,
+				92EFF2811E7FCD4500911F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92EFF2701E7FCD4500911F3C /* Project object */;
+}
