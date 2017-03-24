@@ -43,11 +43,23 @@ namespace TCSDKLog
     // AVSDK事件分析处理
     typedef enum {
         EAVSDKLog_None,                                 // 默认值
-        EAVSDKLog_ISAVSDKLog,                           // 是否是AVSDK的日志
-        EAVSDKLog_LiveCount,                            // 日志内所有直播的次数分析
-        EAVSDKLog_LiveRun,                              // 单次直播分析
+       // EAVSDKLog_ISAVSDKLog,                           // 是否是AVSDK的日志
         
-        EAVSDKLog_LiveRun_EnterRoom,                    // 进房分析
+        EAVSDKLog_OpenSDK,                              // 日志事件
+        EAVSDKLog_StartContex_Begin,                    // StartContext
+        EAVSDKLog_StartContex_Succ_Key,                 // StartContext
+        EAVSDKLog_StartContex_Succ,                     // StartContext
+        EAVSDKLog_StartContex_Failed,                   // StartContext
+        EAVSDKLog_StartContex_Analyse_Result,           //
+        
+        EAVSDKLog_StopContex_Begin,                     // StopContext
+        EAVSDKLog_StopContex_Succ,                      // StopContext
+        EAVSDKLog_StopContex_Failed,                    // StopContext
+        
+        EAVSDKLog_LiveRun_EnterRoom_Begin,              // 进房分析
+        EAVSDKLog_LiveRun_EnterRoom_Succ,               // 进房分析
+        EAVSDKLog_LiveRun_EnterRoom_Failed,             // 进房分析
+        
         EAVSDKLog_LiveRun_Event,                        // 核心事件统计
         EAVSDKLog_LiveRun_SendRecv,                     // 发送接收数据统计
         EAVSDKLog_LiveRun_HeartPulse,                   // 心跳包统计

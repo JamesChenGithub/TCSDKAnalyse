@@ -14,6 +14,7 @@ namespace TCSDKLog
     {
         _eventName = "";
         _eventTime = "";
+        _logText = "";
         _parseResult = "";
         _recommendHandle = "";
     }
@@ -27,6 +28,12 @@ namespace TCSDKLog
         _recommendHandle = "无";
     }
     
+    void TCSDKLogResultItem::setLogText(const string log)
+    {
+        _logText = log;
+        _parseResult = log;
+    }
+    
     void TCSDKLogResultItem::setParseResult(const string result)
     {
         _parseResult = result;
@@ -34,6 +41,7 @@ namespace TCSDKLog
     
     string TCSDKLogResultItem::getResultString() const
     {
-        return "事件名称：" + _eventName + " | 时间：" + _eventTime + " | 分析结果：" + _parseResult + " | 推荐处理："+_recommendHandle;
+        // return "事件名称：" + _eventName + " | 时间：" + _eventTime + " | 分析结果：" + _parseResult + " | 推荐处理："+_recommendHandle;
+        return _parseResult;
     }
 }

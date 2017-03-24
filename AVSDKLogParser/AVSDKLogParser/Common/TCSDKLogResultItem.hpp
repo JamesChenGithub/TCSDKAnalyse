@@ -25,6 +25,7 @@ namespace TCSDKLog
     private:
         string _eventName;          // 事件名
         string _eventTime;          // 时间
+        string _logText;            // 日志原文件
         string _parseResult;        // 执行结果
         string _recommendHandle;    // 推荐处理结果
         
@@ -36,8 +37,11 @@ namespace TCSDKLog
     public:
         TCSDKLogResultItem(const int eventType, const int eventID, const string aEventName, const string aEventTime);
         
-        void setParseResult(const string result);
+    
+        void setLogText(const string log);
         
+        
+        void setParseResult(const string result);
         string getResultString() const;
     };
     
